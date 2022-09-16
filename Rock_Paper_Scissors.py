@@ -22,4 +22,3 @@ def isWin(player, opponent):
 # play 10 times
 for i in range(0, 10):
     play()
-    
