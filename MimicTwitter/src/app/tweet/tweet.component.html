@@ -1,0 +1,12 @@
+<div>
+  <h2>Tweets</h2>
+  <ul>
+    <li *ngFor="let tweet of tweets">{{ tweet }}</li>
+  </ul>
+
+  <h2>New Tweet</h2>
+  <form (ngSubmit)="onSubmit()">
+    <input type="text" [(ngModel)]="newTweet" [ngModelOptions]="{standalone: true}">
+    <button type="submit">Submit</button>
+  </form>
+</div>

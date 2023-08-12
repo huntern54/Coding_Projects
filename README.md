@@ -17,3 +17,5 @@ Consists of:
               - Traversing through a linked list
               - Inserting an element at the beginning, middle, and end
               - (Challenge) Reversing a linked list
+
+There is also a small learning project that deals with ANGULAR and Nodejs
